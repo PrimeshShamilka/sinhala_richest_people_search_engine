@@ -30,5 +30,5 @@ The techniques used in indexing and querying and the use of advanced features ar
 | /searchBy/names  | GET  | Search by person name | /searchBy/names?names=එලන් |
 | /searchBy/professions | GET | Search by profession | /searchBy/professions?professions=ව්යවසායකයා |
 | /facetedSearch | POST | Apply filters to the search. Filter by gender, nationality and profession | { "term": "ඔහු", "filter" : [{"Nationality" : "දකුණු"}, {"Gender": "පිරිමි"}]} |
-| advanceSearch | POST | Search with a given set of specified keywords | { "filter" : [ {"keyword" : "PersonName", "value": "ජෙෆ්" }, {"keyword" : "Gender", "value": "පිරිමි" }, {"keyword" : "Age", "value": "57" }]} |
+| /advanceSearch | POST | Search with a given set of specified keywords | { "filter" : [ {"keyword" : "PersonName", "value": "ජෙෆ්" }, {"keyword" : "Gender", "value": "පිරිමි" }, {"keyword" : "Age", "value": "57" }]} |
 
